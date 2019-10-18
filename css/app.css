@@ -4,6 +4,13 @@ body {
     margin: 0;
 }
 
+.but1
+{
+    float: left;
+    width: 25%;
+    height: 40px;
+    margin:0px;
+}
 .container {
     background: #ffffff;
     width: 960px;
@@ -33,6 +40,7 @@ nav
     height: 40px;
 }
 
+
 main {
     background: #348f22;
     width: 100%;
@@ -48,11 +56,6 @@ sidebar
     width: 20%;
     height: 400px;
     text-align: center;
-}
-
-#child
-{
-    padding-bottom: "3";   
 }
 
 
