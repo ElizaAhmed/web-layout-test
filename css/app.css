@@ -15,15 +15,22 @@ body {
 header
 {
     background-color: rebeccapurple;
+    background-image: url(logo_transparent_final.png);
+    background-position: 50%;
     height: 175px;
-
+    font-size: 45px;
+    text-align: center;
+}
+button
+{
+    width: 100%;
+    margin: 0px;
 }
 
 nav
 {
     background-color: rgb(145, 41, 98);
     height: 40px;
-
 }
 
 main {
@@ -40,7 +47,14 @@ sidebar
     position: relative;
     width: 20%;
     height: 400px;
+    text-align: center;
 }
+
+#child
+{
+    padding-bottom: "3";   
+}
+
 
 #content
 {
