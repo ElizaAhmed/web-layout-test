@@ -1,3 +1,12 @@
 body {
-    background-color: blueviolet;
+    background-color: #bbadad;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    width: 960px;
+    min-height: 800px;
+    margin: 0 auto;
 }
