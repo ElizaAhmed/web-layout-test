@@ -7,7 +7,7 @@ body {
 .container {
     background: #ffffff;
     width: 960px;
-    min-height: 800px;
+    min-height: 680px;
     margin: 0 auto;
    
 }
@@ -15,27 +15,43 @@ body {
 header
 {
     background-color: rebeccapurple;
+    height: 175px;
 
 }
 
 nav
 {
     background-color: rgb(145, 41, 98);
+    height: 40px;
 
+}
+
+main {
+    background: #348f22;
+    width: 100%;
+    min-height: 400px;
 }
 
 sidebar
 {
-    background-color: rgb(36, 124, 90);
-
+    float: left;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 20%;
+    height: 400px;
 }
 
-div
+#content
 {
-    background-color: #348f22;
+    float: left;
+    background: white;
+    min-height: 400px;
+    width: 80%;
 }
 
 footer
 {
     background-color: aqua;
+    height: 65px;
 }
