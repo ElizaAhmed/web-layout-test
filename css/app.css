@@ -16,7 +16,7 @@ body {
 
 header
 {
-    background-color: rebeccapurple;
+    background-color: black;
     display: block;
     overflow: hidden;
     height: 175px;
@@ -68,12 +68,12 @@ nav ul li a {
 }
 
 nav ul li a:hover  {
-    color: red;
+    color: pink;
 }
 
 
 main {
-    background: #348f22;
+    background: black;
     width: 100%;
     min-height: 400px;
 }
@@ -88,7 +88,42 @@ sidebar
     height: 400px;
     text-align: center;
 }
+sidebar ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
 
+sidebar ul li
+{
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+
+}
+
+sidebar ul li a
+{
+    width: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: left;
+}
+
+sidebar ul li a:hover
+{
+    color:pink;
+}
 
 #content
 {
@@ -100,6 +135,6 @@ sidebar
 
 footer
 {
-    background-color: aqua;
+    background-color: rgb(145, 41, 98);
     height: 65px;
 }
